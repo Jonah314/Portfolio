@@ -1,0 +1,47 @@
+.siteContainer {
+    background-color: #2e3105;
+    max-width: 1800px;
+    min-height: 400px;
+    color:#feffe9;
+    display:grid;
+    grid-template-columns: 3fr 8fr 1fr;
+}
+
+.imgContainer{
+    border-radius: 35px;
+    background-color:#feffe9;
+    aspect-ratio: 1/1;
+    margin: 8%;
+}
+
+.siteContent{
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    margin: 5% 2%;
+    
+}
+.textBox{
+    margin:0 5% 2%;
+    border: 1px solid red;
+}
+
+.iconContainer{
+    border: 1px solid red;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    column-gap: 2%;
+    alight-items: stretch;
+
+}
+
+.iconBox{
+    border-radius: 5px;
+    background-color:#feffe9;
+    width:100%;
+    
+    aspect-ratio:1/1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+    

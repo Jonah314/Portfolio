@@ -1,0 +1,151 @@
+
+.banner{
+    margin:0;
+    padding:0;
+    width: 100%;
+    min-height:760px;
+    height:40vw;
+    background-color:#fffdc1;
+    border-bottom:1px solid #2e3105;
+
+    display:grid;
+    
+    align-content:center;
+    align-items:center;
+    jusitfy-items:center;
+}
+
+.bannerImg{
+    
+    aspect-ratio:1/1;
+    margin:0 20%;
+    padding:0;
+    
+    
+}
+
+.imgContainer{
+    aspect-ratio:1/1;
+   
+    
+}
+
+.imgContainer img {
+    border-radius: 40px;
+    width:100%;
+    aspect-ratio:1/1;
+    object-fit: cover;
+}
+
+.bannerButton {
+  display: inline-block;
+  margin:0 auto;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #2e3105;
+  background-color: #dfe777;
+  border: none;
+  border-radius: 35px;
+  box-shadow: 0 9px #999;
+  width:200px;
+  
+}
+
+.bannerButton:hover {background-color: #feffe9}
+
+.bannerButton:active {
+  background-color: #feffe9;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.aboutContent {
+    display:grid;
+    grid-template-rows:auto auto auto;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+    margin:0;
+    padding:0;
+}
+.aboutContent h1{
+    font-size:50px;
+    text-align:center;
+    margin:0;
+    color:#2e3105;
+}
+.aboutContent p{
+    font-size:20px;
+    width:80%;
+    margin: 0 20px;
+    padding:15px 20px;
+    text-align: center;
+    color:#2e3105;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    min-height:600px;
+
+  }
+  .bannerImg{
+    max-height:300px;
+  }
+}
+
+@media only screen and (max-width: 900px){
+    .banner{
+        display:grid;
+        jusity-items:center;
+        
+        grid-template-rows: auto auto;
+        gap: 20px;
+        min-height:700px;
+    }
+    .bannerImg{
+        grid-row:1;
+        max-height:340px;
+        margin: auto;
+
+    }
+    .aboutContent{
+        grid-row:2;
+    }
+}
+
+@media only screen and (min-width:900px ){
+    
+    .banner{
+        grid-template-columns: 1fr 1fr;
+        min-height:500px;
+    }
+    
+}
+@media only screen and (min-width:1200px){
+    .aboutContent p {
+        width:60%;
+        margin:0 auto;
+        text-align: center;
+        font-size:25px;
+    }
+}
+
+@media only screen and (min-width:1800px){
+    .aboutContent h1{
+        font-size:70px;
+    }
+    
+    .aboutContent p{
+        width:40%;
+        font-size:30px;
+        text-align:left;
+        text-indent:10%;
+        margin: 0 auto;
+    }
+}

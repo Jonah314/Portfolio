@@ -1,0 +1,21 @@
+.styleGuide1200{
+    width: 1200px;
+    height: 20px;
+    background: red;
+}
+
+.styleGuide600{
+    width:600px;
+    height:20px;
+    background:blue;
+}
+.styleGuide900{
+    width:900px;
+    height:20px;
+    background:pink;
+}
+.styleGuide1800{
+    width:1800px;
+    height:20px;
+    background:green;
+}

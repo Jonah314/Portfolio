@@ -1,0 +1,16 @@
+.general{
+    margin: 0 auto;
+    padding: 0 50px;
+   
+    max-width:1200px;
+}
+
+.general h2,h1{
+    text-align:center;
+}
+
+.centerBulletPoints{
+    
+    width:max-content;
+    margin: 0 auto;
+}

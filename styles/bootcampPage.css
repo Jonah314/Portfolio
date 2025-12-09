@@ -1,0 +1,39 @@
+.bootCampContent h1{
+    font-size:60px;
+    margin:10px auto 0;
+    text-decoration: underline;
+    text-decoration-thickness:3px;
+}
+.bootCampContent h2{
+    font-size: 30px;
+    margin:10px auto 0;
+}
+
+.bootCampContent h3{
+    font-size:20px;
+    margin:5px auto 0;
+}
+
+.bootCampContent h4{
+    font-size:18px;
+    margin:5px auto 0;
+}
+
+.bootCampContent{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    max-width: 1000px;
+}
+.topSection{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:auto;
+}
+
+

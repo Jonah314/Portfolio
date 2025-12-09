@@ -1,0 +1,114 @@
+.navbar{
+    width: 100%;
+    border-bottom:1px solid #2e3105;
+    min-height: 90px;
+    height: 5vw;
+    padding:0;
+    margin:0;
+    
+    background-color: #feffe9;
+
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    align-content: center;
+    align-items:center;
+    justify-items:center;
+}
+.navbar li{
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+
+.NameContainer {
+    height: 90%;
+    width: 30%;
+    
+    grid-rows-template: 80% 20%;
+    display: grid;
+    margin:0;
+    padding:0;
+    align-content:center;
+    
+}
+.NameContainer p{
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    
+    margin:0;
+    padding:0;
+    text-indent:0;
+    color:#2e3105;
+    font-size: 20px;
+}
+.NameContainer h1{
+    text-align: center;
+    
+    margin: 0;
+    padding:5px 0 0 0;
+    color:#2e3105;
+    font-size: 50px;
+}
+.NameContainer a {
+    text-decoration:none;
+}
+
+.NavButton{
+    
+  display: inline-block;
+  margin:0 auto;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #2e3105;
+  background-color: #2e3105;
+  border: 1px solid black;
+  border-radius: 35px;
+  color: #feffe9;
+  width:200px;
+  
+
+}
+
+
+@media only screen and (max-width: 600px) {
+.navRight {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.navRight #myLinks {
+  display: none;
+}
+
+.navRight a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.navRight a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.navRight a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+}
+
