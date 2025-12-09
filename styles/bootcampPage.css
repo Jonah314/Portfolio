@@ -44,7 +44,7 @@
 
 .weekWrapper{
     width:100%;
-    height:800px;
+    height:auto;
     background:#feffe9;
     display:flex;
     justify-content:center;
@@ -70,23 +70,31 @@
 .week{
     
     display:grid;
-    grid-template-rows:100px 700px;
+    grid-auto-rows: minmax(50px, 100px);
+    
 
 }
 .BootcampProjects{
     display:grid;
-    grid-template-rows:100px 700px;
+    grid-auto-rows: minmax(30px, auto);
 }
 .BC_Title{grid-area:Title;}
 .BC_IMG{
     grid-area:img;
     height:200px;
+    width:480px;
+}
+.BC_IMG img:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(0,255,255,0.5);
+
 }
 .BC_IMG img {
     width: 100%;
     height: 100%;
     object-fit: contain;  
 }
+
 
 .BC_GIT{grid-area:git;}
 .BC_Des{grid-area:description;}
@@ -105,4 +113,10 @@
     display:flex;
     justify-content:center;
     align-items:center;
+}
+.topCenter{
+    display:flex;
+    jusitfy-content:flex-start;
+    align-items:flex-start;
+    
 }
