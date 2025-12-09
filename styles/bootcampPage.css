@@ -10,13 +10,19 @@
 }
 
 .bootCampContent h3{
-    font-size:20px;
+    font-size:24px;
     margin:5px auto 0;
 }
 
 .bootCampContent h4{
-    font-size:18px;
+    font-size:22px;
     margin:5px auto 0;
+}
+.bootCampContent p {
+    font-size:22px;
+}
+.bootCampContent li {
+    font-size:22px;
 }
 
 .bootCampContent{
@@ -36,4 +42,67 @@
     margin:auto;
 }
 
+.weekWrapper{
+    width:100%;
+    height:800px;
+    background:#feffe9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-top:1px solid #2e3105;
+    border-bottom:1px solid #2e3105;
+}
+.weekContent{
+    width:100%;
+    max-width:1200px;
+    display:grid;
+    grid-template-columns:50% 50%;
+    column-gap:20px;
 
+}
+.weekContent h1{
+    font-size:50px;
+}
+
+.weekContent p, li{
+    font-size:20px;
+}
+.week{
+    
+    display:grid;
+    grid-template-rows:100px 700px;
+
+}
+.BootcampProjects{
+    display:grid;
+    grid-template-rows:100px 700px;
+}
+.BC_Title{grid-area:Title;}
+.BC_IMG{
+    grid-area:img;
+    height:200px;
+}
+.BC_IMG img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  
+}
+
+.BC_GIT{grid-area:git;}
+.BC_Des{grid-area:description;}
+.BC_Des p{
+    font-size:16px;
+}
+.BC_Card{
+    display:grid;
+    grid-template:
+    'Title Title git'
+    'img img img'
+    'description description description';
+
+}
+.center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

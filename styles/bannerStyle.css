@@ -1,3 +1,13 @@
+.bannerWrapper{
+    width:100%;
+    background-color:#fffdc1;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    
+    border-bottom:1px solid #2e3105;
+}
+
 
 .banner{
     margin:0;
@@ -6,14 +16,17 @@
     min-height:760px;
     height:40vw;
     background-color:#fffdc1;
-    border-bottom:1px solid #2e3105;
+    
 
     display:grid;
     
     align-content:center;
     align-items:center;
     jusitfy-items:center;
+    max-width:1400px;
 }
+
+
 
 .bannerImg{
     
@@ -71,12 +84,14 @@
     align-items:center;
     margin:0;
     padding:0;
+    
 }
 .aboutContent h1{
     font-size:50px;
     text-align:center;
     margin:0;
     color:#2e3105;
+    
 }
 .aboutContent p{
     font-size:20px;
@@ -137,12 +152,16 @@
 }
 
 @media only screen and (min-width:1800px){
+    .banner{
+        height:600px;
+    }
+    
     .aboutContent h1{
         font-size:70px;
     }
     
     .aboutContent p{
-        width:40%;
+        width:80%;
         font-size:30px;
         text-align:left;
         text-indent:10%;
