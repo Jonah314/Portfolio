@@ -236,3 +236,67 @@
 .weekLinksWrapper a:hover{
     color:purple;
 }
+
+@media only screen and (max-width: 600px){
+    .bootCampContent h1{
+    text-align:center;
+}
+.bootCampContent h2{
+    text-align:center;
+    margin:10px;
+}
+.bootCampContent p {
+    text-align:center;
+    margin:10px;
+}
+.bootCampContent li {
+    margin:10px;
+}
+.coreProjectsWrapper{
+    width:91%;
+    height:auto;
+}
+.coreProjects{
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    width:100%;
+    height:100%;
+    column-gap:0;
+    row-gap:10px;
+    
+    
+}
+.coreCard{
+    margin:auto;
+    
+}
+.weekWrapper{
+    width:100%;
+    height:auto;
+}
+
+.weekContent{
+    grid-template-columns:1fr;
+    grid-template-rows:auto;
+    width:100%;
+}
+.week{
+    width:100%;
+}
+.topCenter{
+    width:100%;
+}
+.BootcampProjects{
+    width:100%;
+}
+.BC_IMG{
+    width:100%;
+
+}
+.BC_IMG img{
+    width:95%;
+    margin:0 10px;
+    padding:0;
+}
+}
