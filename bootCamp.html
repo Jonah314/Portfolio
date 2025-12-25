@@ -16,30 +16,31 @@
 
 
 <!--- NAV BAR-->
-  <div>
-    <div class = "navbar">
-      <div class = 'NameContainer' >
-        <a href="./index.html">
-            <h1>JONAH</h1>
-            <p>Jonathan Thomas Cantu</p>
-        </a>
-      </div>
-    
-      
-      <div>
-        
-      </div>
+<div>
+  <div class="navbar">
 
-      <div>
-        <button class = "NavButton" onClick="document.location='./projects.html'"> Projects </button>
-        <button class = "NavButton" onClick="document.location='./bootCamp.html'">Bootcamp Experience</button>
-        <button class = "NavButton" onClick="document.location='./aboutMe.html'">About Me</button>
-      </div>
-      
-      
-
+    <div class="NameContainer">
+      <a href="./index.html">
+        <h1>JONAH</h1>
+        <p>Jonathan Thomas Cantu</p>
+      </a>
     </div>
+
+    
+    <div></div>
+
+    <!-- HAMBURGER BUTTON -->
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+    <!-- NAV BUTTONS -->
+    <div class="navRight" id="navLinks">
+      <button class="NavButton" onclick="document.location='./projects.html'">Projects</button>
+      <button class="NavButton" onclick="document.location='./bootCamp.html'">Bootcamp Experience</button>
+      <button class="NavButton" onclick="document.location='./aboutMe.html'">About Me</button>
+    </div>
+
   </div>
+</div>
 
   <main>
 <!--BANNNER-->
@@ -368,7 +369,7 @@
 
 
  
- 
+ <script src="./script.js"></script>
 </body>
 
 </html>

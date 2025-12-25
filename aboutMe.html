@@ -14,43 +14,30 @@
 <body>
    <!--- NAV BAR-->
   <div>
-    <div class = "navbar">
-      <div class = 'NameContainer' >
-        <a href="./index.html">
-            <h1>JONAH</h1>
-            <p>Jonathan Thomas Cantu</p>
-        </a>
-      </div>
-    
-      
-      <div>
-        
-      </div>
+  <div class="navbar">
 
-      <div>
-        <button class = "NavButton" onClick="document.location='./projects.html'"> Projects </button>
-        <button class = "NavButton" onClick="document.location='./bootCamp.html'">Bootcamp Experience</button>
-        <button class = "NavButton" onClick="document.location='./aboutMe.html'">About Me</button>
-      </div>
-      
-      <!-- hamburger Menu
-      <div class =navRight>
-                      
-            <a href="#home" class="active">Logo</a>
-            <div id="myLinks">
-              <a href="#news">Projects</a>
-              <a href="#contact">Contact</a>
-              <a href="#about">About</a>
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-          
-      </div> 
-      -->
-
+    <div class="NameContainer">
+      <a href="./index.html">
+        <h1>JONAH</h1>
+        <p>Jonathan Thomas Cantu</p>
+      </a>
     </div>
+
+    
+    <div></div>
+
+    <!-- HAMBURGER BUTTON -->
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+    <!-- NAV BUTTONS -->
+    <div class="navRight" id="navLinks">
+      <button class="NavButton" onclick="document.location='./projects.html'">Projects</button>
+      <button class="NavButton" onclick="document.location='./bootCamp.html'">Bootcamp Experience</button>
+      <button class="NavButton" onclick="document.location='./aboutMe.html'">About Me</button>
+    </div>
+
   </div>
+</div>
 
 
   <main class="general">
@@ -97,7 +84,7 @@ I’m passionate about continuing to grow as a developer, learning new tools lik
   <footer>
    
   </footer>
-
+  <script src="./script.js"></script>
 </body>
 
 

@@ -31,6 +31,7 @@
     align-content:center;
     
 }
+
 .NameContainer p{
     font-family: 'Brush Script MT', cursive;
     text-align: center;
@@ -73,42 +74,47 @@
 
 }
 
+.hamburger {
+  display: none;
+  font-size: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #2e3105;
+}
+
 
 @media only screen and (max-width: 600px) {
-.navRight {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
 
-.navRight #myLinks {
-  display: none;
-}
+  .hamburger {
+    display: block;
+    justify-self: end;
+    margin-right: 20px;
+  }
 
-.navRight a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
+  .navRight {
+    display: none;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 100%;
+    background-color: #feffe9;
+    padding: 15px 0;
+    text-align: center;
+  }
 
-.navRight a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
+  .navRight.show {
+    display: block;
+  }
 
-.navRight a:hover {
-  background-color: #ddd;
-  color: black;
-}
+  .NavButton {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
 
-.active {
-  background-color: #04AA6D;
-  color: white;
-}
+  .navbar {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
