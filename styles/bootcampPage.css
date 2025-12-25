@@ -52,6 +52,18 @@
     border-top:1px solid #2e3105;
     border-bottom:1px solid #2e3105;
 }
+
+.weekWrapperB{
+    width:100%;
+    height:auto;
+    background:#708A58;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-top:1px solid #2e3105;
+    border-bottom:1px solid #2e3105;
+    color:#feffe9;
+}
 .weekContent{
     width:100%;
     max-width:1200px;
@@ -78,6 +90,7 @@
     display:grid;
     grid-auto-rows: minmax(30px, auto);
 }
+
 .BC_Title{grid-area:Title;}
 .BC_IMG{
     grid-area:img;
@@ -99,7 +112,7 @@
 .BC_GIT{grid-area:git;}
 .BC_Des{grid-area:description;}
 .BC_Des p{
-    font-size:16px;
+    font-size:22px;
 }
 .BC_Card{
     display:grid;
@@ -119,4 +132,46 @@
     jusitfy-content:flex-start;
     align-items:flex-start;
     
+}
+
+
+/* Core Projects Banner */
+.coreProjectsWrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:500px;
+    background: #708A58;
+    margin:40px 0 40px;
+    padding:15px;
+    flex-direction:column;
+    color:#2e3105;
+
+}
+.coreProjectsWrapper h1{
+    margin:0 0 25px;
+    padding:0;
+}
+
+.coreProjects{
+    width:1200px;
+    height:400px;
+    max-width:1200px;
+    display:grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    column-gap:2%;
+}
+
+.coreCard{
+    width:100%;
+    border-radius:25px;
+    background:#feffe9;
+}
+.coreCard:hover{
+    transform:scale(1.1);
+    transition: transform .3 ease;
+}
+.twelveHundred{
+    width:1200px
 }
