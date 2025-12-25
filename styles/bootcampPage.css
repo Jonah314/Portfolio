@@ -160,11 +160,20 @@
     grid-template-columns: 22% 22% 22% 22%;
     column-gap:2%;
 }
+.coreProjects a{
+    text-decoration:none;
+}
+.coreProjects a:visited{
+    color:black;
+}
 
 .coreCard{
     width:100%;
     border-radius:25px;
     background:#feffe9;
+    display:grid;
+    grid-template-column: 80px 250px 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .coreCard:hover{
     transform:scale(1.1);
@@ -173,7 +182,37 @@
 .twelveHundred{
     width:1200px
 }
-
+.coreCardTitle{
+    height:80px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.coreCardTitle h1{
+    margin:0;
+    padding:0;
+}
+.coreCardImg{
+    height:250px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.coreCardImg img{
+    height:90%;
+    border-radius: 25px;
+    
+}
+.coreCardDescription{
+    height:70px;
+}
+.coreCardDescription p{
+    margin:0 15px;
+    padding:0;
+    text-indent:0;
+    text-align:center;
+}
 
 /* Week Links */
 .weekLinksWrapper{
@@ -186,4 +225,14 @@
 
 .weekLinksWrapper ul{
     list-style-type:none;
+}
+
+.weekLinksWrapper a{
+    text-decoration:none;
+}
+.weekLinksWrapper a:visited{
+    color:blue;
+}
+.weekLinksWrapper a:hover{
+    color:purple;
 }
