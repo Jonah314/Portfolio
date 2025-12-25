@@ -60,8 +60,6 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    border-top:1px solid #2e3105;
-    border-bottom:1px solid #2e3105;
     color:#feffe9;
 }
 .weekContent{
@@ -174,4 +172,18 @@
 }
 .twelveHundred{
     width:1200px
+}
+
+
+/* Week Links */
+.weekLinksWrapper{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:40px 0;
+}
+
+.weekLinksWrapper ul{
+    list-style-type:none;
 }
