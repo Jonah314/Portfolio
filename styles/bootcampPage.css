@@ -280,8 +280,10 @@
     grid-template-columns:1fr;
     grid-template-rows:auto;
     width:100%;
+    height:100%;
 }
 .week{
+    height:300px;
     width:100%;
 }
 .topCenter{
@@ -292,11 +294,40 @@
 }
 .BC_IMG{
     width:100%;
+    height:100%;
 
 }
 .BC_IMG img{
     width:95%;
+    height:100%;
     margin:0 10px;
     padding:0;
+}
+.BC_Card{
+    display:grid;
+    grid-template:
+    'Title Title Title'
+    'img img img'
+    'git git git'
+    'description description description';
+
+}
+.BC_Title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:0;
+    margin:0;
+}
+.BC_Title h3{
+    margin:0;
+    padding:0;
+}
+.BC_Des{
+    margin:15px 10px;
+    text-align:center;
+}
+.BC_Des p{
+    text-indent:0;
 }
 }
