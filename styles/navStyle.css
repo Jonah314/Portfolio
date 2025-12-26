@@ -9,7 +9,7 @@
     background-color: #feffe9;
 
     display: grid;
-    grid-template-columns:1fr 1fr 50%;
+    grid-template-columns:1fr 1fr auto;
     align-content: center;
     align-items:center;
     justify-items:center;
@@ -122,3 +122,40 @@
   }
 }
 
+@media only screen and (max-width: 900px)and (min-width:600px){
+  .hamburger {
+    display: block;
+    justify-self: end;
+    margin-right: 20px;
+  }
+   .hamburger {
+    display: block;
+    justify-self: end;
+    margin-right: 20px;
+  }
+
+  .navRight {
+    display: none;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 100%;
+    background-color: #feffe9;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  .navRight.show {
+    display: block;
+  }
+
+  .NavButton {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .navbar {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
